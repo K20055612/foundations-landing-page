@@ -32,7 +32,7 @@ ul {
 }
 
 a {
-    font-size: 18px;
+    font-size: 14px;
     color: #e5e7eb;
     text-decoration: none;
 }
@@ -48,11 +48,16 @@ a {
 }
 
 .footer {
+    padding: 15px;
+    text-align: center;
+    color: #e5e7eb;
+    background-color: #1F2937;
     margin-top: auto;
+    font-size: 12px;
 }
 
 .logo {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 900;
     color: #F9FAF8;
 }
@@ -89,7 +94,7 @@ a {
 }
 
 .tile-1 h1 {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 900;
     color: #F9FAF8;
 }
@@ -126,7 +131,7 @@ a {
 }
 
 .tile-2 h2 {
-    font-size: 36px;
+    font-size: 24px;
     color: #1F2937;
 }
 
@@ -154,7 +159,7 @@ a {
 }
 
 .quote {
-    font-size: 25px;
+    font-size: 22px;
     font-style: italic;
 }
 
