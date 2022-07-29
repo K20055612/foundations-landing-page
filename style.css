@@ -106,9 +106,9 @@ a {
 .tile-2 {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 30px;
 }
 
 .tile-2 img {
@@ -128,14 +128,14 @@ a {
 .image-container {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     text-align: center;
-    /* max-width: 130px;
-    max-height: 130px; */
+    max-width: 200px;
+    max-height: 200px;
 }
 
 .images {
     display: flex;
-    gap: 20px;
-    justify-content: space-around;
+    flex-wrap: wrap;
 }
