@@ -7,10 +7,42 @@ body {
     justify-content: space-between;
 }
 
+ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 10px;
+}
+
+a {
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
+    font-family: Verdana, serif;
+}
+
 .header {
     margin-bottom: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    background-color: #1F2937;
+    flex: 0 0 auto;
+    padding: 0 125px 0 125px;
 }
 
 .footer {
     margin-top: auto;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 900;
+    font-family: Verdana, serif;
+    color: #F9FAF8;
+}
+
+.links {
 }
